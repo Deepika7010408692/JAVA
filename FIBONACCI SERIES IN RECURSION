@@ -1,0 +1,12 @@
+public class main{
+public static int deepi(int n){
+    if(n<=1)
+        return n ;
+        return deepi(n-1)+deepi(n-2);
+    }
+public static void main(String args[])
+{
+int n=7;
+System.out.println(deepi(n-1));
+}
+}
